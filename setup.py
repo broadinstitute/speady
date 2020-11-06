@@ -4,6 +4,6 @@ import numpy
 
 setup(
     ext_modules=cythonize(
-        [Extension("pearson", ["src/pearson.pyx"], include_dirs=[numpy.get_include()])]
+        [Extension("speady", ["src/speady.pyx"], include_dirs=[numpy.get_include()])]
     )
 )
