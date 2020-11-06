@@ -3,5 +3,5 @@
 A pearson correlation implementation in Cython.
 
 ```
-./build.sh
+python -m pip install git+https://github.com/broadinstitute/speady
 ```
